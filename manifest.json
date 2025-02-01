@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Jup Trade Button",
+  "name": "Jup Free",
   "version": "1.0",
   "description": "Adds a Jup Trade button to gmgn, dexx, debot websites for quick Jupiter trading.",
   "permissions": [
