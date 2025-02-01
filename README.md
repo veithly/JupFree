@@ -1,11 +1,13 @@
 # Floating Jup Button Extension
 
-This browser extension and Tampermonkey userscript adds a draggable floating button to any website. Clicking the button opens the Jupiter Swap interface in a small popup window, allowing for quick token swapping on Jupiter Exchange.
+This browser extension and Tampermonkey userscript adds a draggable floating button to any website. Clicking the button opens the Jupiter Swap interface in a small popup window, allowing for quick token swapping on Jupiter Exchange. Can save fee for these websites.
+
+![screenshot](./asset/screenshot.png)
 
 ## Features
 
 - **Draggable Floating Button:**  A "Jup" button appears in the top right corner of any website and can be dragged to any position on the page.
-- **Quick Jupiter Swap Access:** Clicking the button opens a small popup window with the Jupiter Swap interface, pre-filled with the token address from supported websites (gmgn.ai, dexx.ai, debot.gg) when available, and defaults to SOL pair.
+- **Quick Jupiter Swap Access:** Clicking the button opens a small popup window with the Jupiter Swap interface, pre-filled with the token address from supported websites (gmgn.ai, www.dexx.ai, debot.gg) when available, and defaults to SOL pair.
 - **Auto-Open Option:** A checkbox is provided to enable automatic opening of the Jupiter Swap interface when navigating to a token webpage.
 - **Clean UI:** The button uses a simple icon and minimal styling to blend in with any website.
 
@@ -39,8 +41,8 @@ After installation, a "Jup" button will be visible in the top right corner of an
 Token address detection is specifically implemented for:
 
 - gmgn.ai
-- dexx.ai
-- debot.gg
+- www.dexx.ai
+- debot.ai
 
 For other websites, the button will still function, but the token address will not be automatically pre-filled. You can manually enter the token address in the Jupiter Swap interface.
 

@@ -57,7 +57,7 @@
         if (currentUrl.includes('gmgn.ai')) {
             const pathParts = currentUrl.split('/');
             tokenAddress = pathParts[pathParts.length - 1];
-        } else if (currentUrl.includes('dexx.ai')) {
+        } else if (currentUrl.includes('www.dexx.ai')) {
             const urlParams = new URLSearchParams(window.location.search);
             tokenAddress = urlParams.get('token_ca');
         } else if (currentUrl.includes('debot.ai')) {

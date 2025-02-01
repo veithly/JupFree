@@ -10,7 +10,7 @@
     {
       "matches": [
         "*://gmgn.ai/*",
-        "*://dexx.ai/*",
+        "*://www.dexx.ai/*",
         "*://debot.ai/*"
       ],
       "js": [
