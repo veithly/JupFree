@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Jup Trade Button",
+  "version": "1.0",
+  "description": "Adds a Jup Trade button to gmgn, dexx, debot websites for quick Jupiter trading.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://gmgn.ai/*",
+        "*://dexx.ai/*",
+        "*://debot.ai/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": ["styles.css"]
+    }
+  ]
+}
